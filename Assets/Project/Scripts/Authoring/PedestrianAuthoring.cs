@@ -11,7 +11,7 @@ namespace QTS.QWorld.Authoring
         public bool reachedDestination;
         public float stopDistance = 1f;
         public float rotationSpeed = 15f;
-        public float minSpeed = 4f, maxSpeed = 5f;
+        public float minSpeed = 1f, maxSpeed = 3f;
         public float movementSpeed;
 
         public WaypointAuthoring firstWaypoint;
@@ -28,7 +28,8 @@ namespace QTS.QWorld.Authoring
                     reachedDestination = true,
                     stopDistance = authoring.stopDistance,
                     rotationSpeed = authoring.rotationSpeed,
-                    movementSpeed = Random.Range(authoring.minSpeed, authoring.maxSpeed),
+                    minSpeed = authoring.minSpeed,
+                    maxSpeed = authoring.maxSpeed,
                     preWaypoint = GetEntity(authoring.firstWaypoint, TransformUsageFlags.None),
                     curWaypoint = GetEntity(authoring.firstWaypoint, TransformUsageFlags.None)
                 });

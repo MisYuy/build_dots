@@ -122,91 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &106945033
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 106945035}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &106945034 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 106945033}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &106945035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106945034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
 --- !u!1 &110130001
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,7 +173,7 @@ MonoBehaviour:
   branchRatio: 0.5
   trafficLightCheck: {fileID: 0}
   isAvoidWaiting: 0
---- !u!1001 &138989802
+--- !u!1001 &182800569
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -266,70 +181,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 138989804}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &138989803 stripped
+      addedObject: {fileID: 182800571}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &182800570 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 138989802}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 182800569}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &138989804
+--- !u!114 &182800571
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138989803}
+  m_GameObject: {fileID: 182800570}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -339,8 +254,8 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
 --- !u!1 &186596313
@@ -394,7 +309,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2075676083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &218782559
+--- !u!1001 &324517457
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -402,70 +317,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 218782561}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &218782560 stripped
+      addedObject: {fileID: 324517459}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &324517458 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 218782559}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 324517457}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &218782561
+--- !u!114 &324517459
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218782560}
+  m_GameObject: {fileID: 324517458}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -475,93 +390,8 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &222607584
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 222607586}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &222607585 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 222607584}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &222607586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222607585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
 --- !u!1 &324751931
@@ -609,6 +439,91 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coordinate: {x: 0, y: 0}
+--- !u!1001 &363180315
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 363180317}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &363180316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 363180315}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &363180317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363180316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 1
+  maxSpeed: 3
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
 --- !u!1 &367655775
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,7 +569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coordinate: {x: 0, y: 3}
---- !u!1001 &374545930
+--- !u!1001 &456655292
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -662,70 +577,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 374545932}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &374545931 stripped
+      addedObject: {fileID: 456655294}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &456655293 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 374545930}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 456655292}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &374545932
+--- !u!114 &456655294
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374545931}
+  m_GameObject: {fileID: 456655293}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -735,11 +650,11 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
---- !u!1001 &379808809
+--- !u!1001 &530830642
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -747,70 +662,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 379808811}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &379808810 stripped
+      addedObject: {fileID: 530830644}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &530830643 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 379808809}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 530830642}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &379808811
+--- !u!114 &530830644
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379808810}
+  m_GameObject: {fileID: 530830643}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -820,178 +735,8 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &474522910
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 474522912}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &474522911 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 474522910}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &474522912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474522911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &551998165
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 551998167}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &551998166 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 551998165}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &551998167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551998166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
 --- !u!1 &560213126
@@ -1039,686 +784,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coordinate: {x: 0, y: 2}
---- !u!1001 &680498240
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 680498242}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &680498241 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 680498240}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &680498242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 680498241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &711963620
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 711963622}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &711963621 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 711963620}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &711963622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711963621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &737795914
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 737795916}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &737795915 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 737795914}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &737795916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737795915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &746166187
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 746166189}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &746166188 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 746166187}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &746166189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746166188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &750053608
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 750053610}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &750053609 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 750053608}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &750053610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750053609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &819395124
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 819395126}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &819395125 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 819395124}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &819395126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819395125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &827969907
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 827969909}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &827969908 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 827969907}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &827969909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827969908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &872227513
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 872227515}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &872227514 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 872227513}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &872227515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872227514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
 --- !u!1 &980172624
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,6 +835,91 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2075676083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1021871169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1021871171}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &1021871170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 1021871169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1021871171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021871170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 1
+  maxSpeed: 3
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
 --- !u!1 &1063508246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,261 +971,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2075676083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1081256320
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (29)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1081256322}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1081256321 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1081256320}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1081256322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081256321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &1109266230
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1109266232}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1109266231 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1109266230}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1109266232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109266231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &1125163804
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1125163806}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1125163805 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1125163804}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1125163806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125163805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
 --- !u!1 &1136754823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,176 +1022,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2075676083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1267399374
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (30)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1267399376}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1267399375 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1267399374}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1267399376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267399375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &1274007316
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1274007318}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1274007317 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1274007316}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1274007318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274007317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
 --- !u!1 &1288499323
 GameObject:
   m_ObjectHideFlags: 0
@@ -2350,7 +1075,7 @@ Transform:
   - {fileID: 367655776}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1304249914
+--- !u!1001 &1457150130
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2358,70 +1083,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1304249916}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1304249915 stripped
+      addedObject: {fileID: 1457150132}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &1457150131 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1304249914}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 1457150130}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1304249916
+--- !u!114 &1457150132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1304249915}
+  m_GameObject: {fileID: 1457150131}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -2431,348 +1156,8 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &1450043576
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1450043578}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1450043577 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1450043576}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1450043578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450043577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &1485947996
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1485947998}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1485947997 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1485947996}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1485947998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485947997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &1673848884
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1673848886}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1673848885 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1673848884}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1673848886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1673848885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
---- !u!1001 &1723034454
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1723034456}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1723034455 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1723034454}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1723034456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1723034455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
 --- !u!1 &1735231596
@@ -2820,7 +1205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coordinate: {x: 0, y: 1}
---- !u!1001 &1790414021
+--- !u!1001 &1838676580
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2828,70 +1213,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1790414023}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1790414022 stripped
+      addedObject: {fileID: 1838676582}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &1838676581 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1790414021}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 1838676580}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1790414023
+--- !u!114 &1838676582
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790414022}
+  m_GameObject: {fileID: 1838676581}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -2901,11 +1286,11 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
---- !u!1001 &1791234445
+--- !u!1001 &1900455794
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2913,70 +1298,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1791234447}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1791234446 stripped
+      addedObject: {fileID: 1900455796}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &1900455795 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1791234445}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 1900455794}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1791234447
+--- !u!114 &1900455796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791234446}
+  m_GameObject: {fileID: 1900455795}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -2986,11 +1371,11 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
---- !u!1001 &1840136602
+--- !u!1001 &1944516975
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2998,70 +1383,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1840136604}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1840136603 stripped
+      addedObject: {fileID: 1944516977}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &1944516976 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1840136602}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 1944516975}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1840136604
+--- !u!114 &1944516977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840136603}
+  m_GameObject: {fileID: 1944516976}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -3071,11 +1456,11 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
---- !u!1001 &1884650799
+--- !u!1001 &1989848640
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -3083,70 +1468,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1884650801}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &1884650800 stripped
+      addedObject: {fileID: 1989848642}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &1989848641 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 1884650799}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 1989848640}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1884650801
+--- !u!114 &1989848642
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884650800}
+  m_GameObject: {fileID: 1989848641}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -3156,11 +1541,11 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
---- !u!1001 &2060764314
+--- !u!1001 &2018623758
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -3168,70 +1553,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - target: {fileID: 2507724323067660683, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+      propertyPath: m_Name
+      value: character_GpuEcsAnimator (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2060764316}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &2060764315 stripped
+      addedObject: {fileID: 2018623760}
+  m_SourcePrefab: {fileID: 100100000, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+--- !u!1 &2018623759 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 2060764314}
+  m_CorrespondingSourceObject: {fileID: 4300663962308052710, guid: c93267d9aa2835aeaadd85fc05d030fa, type: 3}
+  m_PrefabInstance: {fileID: 2018623758}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2060764316
+--- !u!114 &2018623760
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2060764315}
+  m_GameObject: {fileID: 2018623759}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
@@ -3241,8 +1626,8 @@ MonoBehaviour:
   reachedDestination: 0
   stopDistance: 1
   rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
+  minSpeed: 1
+  maxSpeed: 3
   movementSpeed: 0
   firstWaypoint: {fileID: 110130003}
 --- !u!1 &2075676082
@@ -3281,126 +1666,21 @@ Transform:
   - {fileID: 110130002}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2139365760
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_Name
-      value: ClownZombie_GpuEcsAnimator (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2139365762}
-  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
---- !u!1 &2139365761 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
-  m_PrefabInstance: {fileID: 2139365760}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2139365762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2139365761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestination: 0
-  stopDistance: 1
-  rotationSpeed: 15
-  minSpeed: 4
-  maxSpeed: 5
-  movementSpeed: 0
-  firstWaypoint: {fileID: 110130003}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2075676083}
-  - {fileID: 1790414021}
-  - {fileID: 680498240}
-  - {fileID: 827969907}
-  - {fileID: 138989802}
-  - {fileID: 1840136602}
-  - {fileID: 218782559}
-  - {fileID: 1450043576}
-  - {fileID: 737795914}
-  - {fileID: 746166187}
-  - {fileID: 1884650799}
-  - {fileID: 1723034454}
-  - {fileID: 819395124}
-  - {fileID: 2060764314}
-  - {fileID: 551998165}
-  - {fileID: 1485947996}
-  - {fileID: 1791234445}
-  - {fileID: 872227513}
-  - {fileID: 106945033}
-  - {fileID: 1109266230}
-  - {fileID: 474522910}
-  - {fileID: 1274007316}
-  - {fileID: 1673848884}
-  - {fileID: 2139365760}
-  - {fileID: 711963620}
-  - {fileID: 222607584}
-  - {fileID: 1267399374}
-  - {fileID: 1081256320}
-  - {fileID: 1304249914}
-  - {fileID: 1125163804}
-  - {fileID: 750053608}
-  - {fileID: 379808809}
-  - {fileID: 374545930}
   - {fileID: 1288499325}
+  - {fileID: 1944516975}
+  - {fileID: 363180315}
+  - {fileID: 1838676580}
+  - {fileID: 456655292}
+  - {fileID: 530830642}
+  - {fileID: 1021871169}
+  - {fileID: 2018623758}
+  - {fileID: 1457150130}
+  - {fileID: 1989848640}
+  - {fileID: 1900455794}
+  - {fileID: 324517457}
+  - {fileID: 182800569}

@@ -14,6 +14,8 @@ namespace QTS.QWorld.Component
         public float stopDistance;
 
         public float rotationSpeed;
+        public float minSpeed;
+        public float maxSpeed;
         public float movementSpeed;
 
         public Entity preWaypoint;
@@ -23,6 +25,7 @@ namespace QTS.QWorld.Component
         public bool isWaiting;
         public float waitingTime;
 
+        public int preState;
         public int state;
         [MarshalAs(UnmanagedType.U1)]
         public bool doTransitionAnim;
@@ -41,6 +44,13 @@ namespace QTS.QWorld.Component
         {
             preWaypoint = curWaypoint;
             curWaypoint = newWaypoint;
+        }
+
+
+        public void SetNewState(int newState)
+        {
+            preState = state;
+            state = newState;
         }
     }
 }

@@ -10,6 +10,7 @@ using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Rendering;
 using Unity.Transforms;
+using UnityEditorInternal;
 
 namespace QTS.QWorld.Job.Pedestrian
 {
@@ -129,7 +130,7 @@ namespace QTS.QWorld.Job.Pedestrian
 
                             if (pedestrianComponent.state != randomState)
                             {
-                                pedestrianComponent.state = randomState;
+                                pedestrianComponent.SetNewState(randomState);
                                 pedestrianComponent.doTransitionAnim = true;
                             }
                         }
@@ -215,7 +216,7 @@ namespace QTS.QWorld.Job.Pedestrian
 
                     if (pedestrianComponent.state != randomState)
                     {
-                        pedestrianComponent.state = randomState;
+                        pedestrianComponent.SetNewState(randomState);
                         pedestrianComponent.doTransitionAnim = true;
                     }
                 }
@@ -247,6 +248,8 @@ namespace QTS.QWorld.Job.Pedestrian
     [BurstCompile]
     public partial struct TransitionAnimationJob : IJobEntity
     {
+        [ReadOnly] public Random random;
+
         public void Execute(GpuEcsAnimatorAspect gpuEcsAnimatorAspect, ref PedestrianComponent pedestrianComponent)
         {
             if (pedestrianComponent.doTransitionAnim)
@@ -254,16 +257,16 @@ namespace QTS.QWorld.Job.Pedestrian
                 int state = pedestrianComponent.state;
                 switch (state)
                 {
-                    case 0: // wait
-                        gpuEcsAnimatorAspect.RunAnimation(0, transitionSpeed: 1f);
-                        break;
                     case 1: // walk
-                        gpuEcsAnimatorAspect.RunAnimation(1, transitionSpeed: 1f);
-                        pedestrianComponent.movementSpeed = 3.5f;
+                        gpuEcsAnimatorAspect.RunAnimation(1, transitionSpeed: pedestrianComponent.preState == 0 ? 0 : 1f);
+                        pedestrianComponent.movementSpeed = random.NextFloat(pedestrianComponent.minSpeed, pedestrianComponent.maxSpeed / 2f);
                         break;
                     case 2: // run
-                        gpuEcsAnimatorAspect.RunAnimation(2, transitionSpeed: 1f);
-                        pedestrianComponent.movementSpeed = 7f;
+                        gpuEcsAnimatorAspect.RunAnimation(2, transitionSpeed: pedestrianComponent.preState == 0 ? 0 : 1f);
+                        pedestrianComponent.movementSpeed = random.NextFloat(pedestrianComponent.maxSpeed / 2f, pedestrianComponent.maxSpeed);
+                        break;
+                    default:
+                        gpuEcsAnimatorAspect.RunAnimation(state, transitionSpeed: 1f);
                         break;
                 }
 
@@ -289,6 +292,7 @@ namespace QTS.QWorld.Job.Pedestrian
     public partial struct MoveToPartnerJob : IJobChunk
     {
         [ReadOnly] public float deltaTime;
+        [ReadOnly] public Random random;
 
         public ComponentTypeHandle<LocalTransform> localTransformTypeHandle;
         public ComponentTypeHandle<PedestrianComponent> pedestrianTypeHandle;
@@ -303,8 +307,22 @@ namespace QTS.QWorld.Job.Pedestrian
             for (int i = 0; i < chunk.Count; i++)
             {
                 var pedestrianComponent = pedestrianComponents[i];
-                if (pedestrianComponent.partnerEntity == Entity.Null || pedestrianComponent.curTimeToInteractWithPartner > 0f)
+                if (pedestrianComponent.partnerEntity == Entity.Null)
                     continue;
+
+                if (pedestrianComponent.curTimeToInteractWithPartner > 0)
+                {
+                    pedestrianComponent.curTimeToInteractWithPartner -= deltaTime;
+                    if (pedestrianComponent.curTimeToInteractWithPartner <= 0)
+                    {
+                        pedestrianComponent.partnerEntity = Entity.Null;
+                        pedestrianComponent.SetNewState(random.NextInt(1, 3));
+                        pedestrianComponent.doTransitionAnim = true;
+                    }
+
+                    pedestrianComponents[i] = pedestrianComponent;
+                    continue;
+                }
 
                 int index = entities.IndexOf(pedestrianComponent.partnerEntity);
                 if (index == -1)
@@ -313,9 +331,11 @@ namespace QTS.QWorld.Job.Pedestrian
                 var partnerLocalTransform = localTransforms[index];
                 float distance = math.distance(partnerLocalTransform.Position, localTransforms[i].Position);
 
-                if (distance <= 2f)
+                if (distance <= 1f)
                 {
                     pedestrianComponent.curTimeToInteractWithPartner = 15f;
+                    pedestrianComponent.SetNewState(random.NextInt(3, 5));
+                    pedestrianComponent.doTransitionAnim = true;
                 }
                 else
                 {

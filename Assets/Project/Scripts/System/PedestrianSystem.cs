@@ -106,11 +106,15 @@ namespace QTS.QWorld.System
                 deltaTime = deltaTime,
                 localTransformTypeHandle = _localTransformTypeHandle,
                 pedestrianTypeHandle = _pedestrianTypehandle,
-                entityTypeHandle = _entityTypeHandle
+                entityTypeHandle = _entityTypeHandle,
+                random = random
             };
             state.Dependency = moveToPartnerJob.ScheduleParallel(_query2, state.Dependency);
 
-            var transitionAnimJob = new TransitionAnimationJob();
+            var transitionAnimJob = new TransitionAnimationJob()
+            {
+                random = random
+            };
             state.Dependency = transitionAnimJob.ScheduleParallel(_query3, state.Dependency);
 
             state.CompleteDependency(); // Chua chac da can thiet
