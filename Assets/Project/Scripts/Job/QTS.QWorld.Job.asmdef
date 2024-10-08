@@ -1,0 +1,26 @@
+{
+    "name": "QTS.QWorld.Job",
+    "rootNamespace": "QTS.QWorld.Job",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:a5baed0c9693541a5bd947d336ec7659",
+        "GUID:7a450cf7ca9694b5a8bfa3fd83ec635a",
+        "GUID:fdb14afa911c65e4982db867bfd7afce",
+        "GUID:0bca432b82d744143afd7b8882eca8b2",
+        "GUID:6711b05ccefa29a3f89f8dde9e39dd7a",
+        "GUID:6181bcda6d21d10eda3a88e14bc2da90",
+        "GUID:e04e6c86a9f3947eb95fded39f9e60cc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

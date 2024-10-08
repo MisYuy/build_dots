@@ -1,0 +1,3406 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &106945033
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 106945035}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &106945034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 106945033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &106945035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106945034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1 &110130001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 110130002}
+  - component: {fileID: 110130003}
+  m_Layer: 0
+  m_Name: Waypoint 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &110130002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110130001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2075676083}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &110130003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110130001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d4796979f954c48bee49f46c367820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousWaypoint: {fileID: 0}
+  nextWaypoint: {fileID: 980172625}
+  width: 10
+  branches: []
+  branchRatio: 0.5
+  trafficLightCheck: {fileID: 0}
+  isAvoidWaiting: 0
+--- !u!1001 &138989802
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 138989804}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &138989803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 138989802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &138989804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138989803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1 &186596313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 186596315}
+  - component: {fileID: 186596314}
+  m_Layer: 0
+  m_Name: Waypoint 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &186596314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186596313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d4796979f954c48bee49f46c367820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousWaypoint: {fileID: 1136754824}
+  nextWaypoint: {fileID: 0}
+  width: 10
+  branches: []
+  branchRatio: 0.5
+  trafficLightCheck: {fileID: 0}
+  isAvoidWaiting: 0
+--- !u!4 &186596315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186596313}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -50.85}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2075676083}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &218782559
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 218782561}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &218782560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 218782559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &218782561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218782560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &222607584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 222607586}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &222607585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 222607584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &222607586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222607585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1 &324751931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 324751932}
+  - component: {fileID: 324751933}
+  m_Layer: 0
+  m_Name: Cell_0_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &324751932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324751931}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.5, y: 0, z: 7.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1288499325}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &324751933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324751931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64938f8096a4b6a42800ca6351645729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 0, y: 0}
+--- !u!1 &367655775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367655776}
+  - component: {fileID: 367655777}
+  m_Layer: 0
+  m_Name: Cell_0_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &367655776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367655775}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.5, y: 0, z: 52.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1288499325}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &367655777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367655775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64938f8096a4b6a42800ca6351645729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 0, y: 3}
+--- !u!1001 &374545930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 374545932}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &374545931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 374545930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &374545932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374545931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &379808809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 379808811}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &379808810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 379808809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &379808811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379808810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &474522910
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 474522912}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &474522911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 474522910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &474522912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474522911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &551998165
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 551998167}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &551998166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 551998165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &551998167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551998166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1 &560213126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560213127}
+  - component: {fileID: 560213128}
+  m_Layer: 0
+  m_Name: Cell_0_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560213127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560213126}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.5, y: 0, z: 37.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1288499325}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560213128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560213126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64938f8096a4b6a42800ca6351645729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 0, y: 2}
+--- !u!1001 &680498240
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 680498242}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &680498241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 680498240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &680498242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680498241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &711963620
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 711963622}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &711963621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 711963620}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &711963622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711963621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &737795914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 737795916}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &737795915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 737795914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &737795916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737795915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &746166187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 746166189}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &746166188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 746166187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &746166189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746166188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &750053608
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 750053610}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &750053609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 750053608}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &750053610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750053609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &819395124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 819395126}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &819395125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 819395124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &819395126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819395125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &827969907
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827969909}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &827969908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 827969907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &827969909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827969908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &872227513
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 872227515}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &872227514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 872227513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &872227515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872227514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1 &980172624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 980172626}
+  - component: {fileID: 980172625}
+  m_Layer: 0
+  m_Name: Waypoint 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &980172625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980172624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d4796979f954c48bee49f46c367820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousWaypoint: {fileID: 110130003}
+  nextWaypoint: {fileID: 1063508247}
+  width: 10
+  branches: []
+  branchRatio: 0.5
+  trafficLightCheck: {fileID: 0}
+  isAvoidWaiting: 0
+--- !u!4 &980172626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980172624}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -11.21}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2075676083}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1063508246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1063508248}
+  - component: {fileID: 1063508247}
+  m_Layer: 0
+  m_Name: Waypoint 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1063508247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063508246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d4796979f954c48bee49f46c367820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousWaypoint: {fileID: 980172625}
+  nextWaypoint: {fileID: 1136754824}
+  width: 10
+  branches: []
+  branchRatio: 0.5
+  trafficLightCheck: {fileID: 0}
+  isAvoidWaiting: 0
+--- !u!4 &1063508248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063508246}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -24.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2075676083}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1081256320
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1081256322}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1081256321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1081256320}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1081256322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081256321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1109266230
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1109266232}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1109266231 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1109266230}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1109266232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109266231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1125163804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1125163806}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1125163805 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1125163804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1125163806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125163805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1 &1136754823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1136754825}
+  - component: {fileID: 1136754824}
+  m_Layer: 0
+  m_Name: Waypoint 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1136754824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136754823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d4796979f954c48bee49f46c367820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousWaypoint: {fileID: 1063508247}
+  nextWaypoint: {fileID: 186596314}
+  width: 10
+  branches: []
+  branchRatio: 0.5
+  trafficLightCheck: {fileID: 0}
+  isAvoidWaiting: 0
+--- !u!4 &1136754825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136754823}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -35.86}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2075676083}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1267399374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1267399376}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1267399375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1267399374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1267399376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267399375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1274007316
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1274007318}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1274007317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1274007316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1274007318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274007317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1 &1288499323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1288499325}
+  - component: {fileID: 1288499324}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1288499324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288499323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17976a05195b8a1a4b3a7275ddd04c56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: {x: 15, y: 60}
+  cellSize: 15
+  gridColor: {r: 1, g: 1, b: 1, a: 1}
+  checker: {fileID: 0}
+  showGridGeneration: 1
+--- !u!4 &1288499325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288499323}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.6, y: 0, z: -58.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 324751932}
+  - {fileID: 1735231597}
+  - {fileID: 560213127}
+  - {fileID: 367655776}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1304249914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1304249916}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1304249915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1304249914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1304249916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304249915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1450043576
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1450043578}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1450043577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1450043576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1450043578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450043577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1485947996
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1485947998}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1485947997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1485947996}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1485947998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485947997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1673848884
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1673848886}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1673848885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1673848884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1673848886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673848885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1723034454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1723034456}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1723034455 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1723034454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1723034456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723034455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1 &1735231596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1735231597}
+  - component: {fileID: 1735231598}
+  m_Layer: 0
+  m_Name: Cell_0_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1735231597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735231596}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.5, y: 0, z: 22.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1288499325}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1735231598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735231596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64938f8096a4b6a42800ca6351645729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 0, y: 1}
+--- !u!1001 &1790414021
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1790414023}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1790414022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1790414021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1790414023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790414022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1791234445
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1791234447}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1791234446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1791234445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1791234447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791234446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1840136602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1840136604}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1840136603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1840136602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1840136604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840136603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &1884650799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1884650801}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &1884650800 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 1884650799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1884650801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884650800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1001 &2060764314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2060764316}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &2060764315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 2060764314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2060764316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060764315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1 &2075676082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2075676083}
+  m_Layer: 0
+  m_Name: WaypointRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2075676083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075676082}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 186596315}
+  - {fileID: 1136754825}
+  - {fileID: 1063508248}
+  - {fileID: 980172626}
+  - {fileID: 110130002}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2139365760
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_Name
+      value: ClownZombie_GpuEcsAnimator (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277291951181951574, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2139365762}
+  m_SourcePrefab: {fileID: 100100000, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+--- !u!1 &2139365761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039438668291298612, guid: ccb20cc83e2bfc38c8040b6e92bf2b2d, type: 3}
+  m_PrefabInstance: {fileID: 2139365760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2139365762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139365761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfdfd0cd12af4f9bdf52829b16364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestination: 0
+  stopDistance: 1
+  rotationSpeed: 15
+  minSpeed: 4
+  maxSpeed: 5
+  movementSpeed: 0
+  firstWaypoint: {fileID: 110130003}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 2075676083}
+  - {fileID: 1790414021}
+  - {fileID: 680498240}
+  - {fileID: 827969907}
+  - {fileID: 138989802}
+  - {fileID: 1840136602}
+  - {fileID: 218782559}
+  - {fileID: 1450043576}
+  - {fileID: 737795914}
+  - {fileID: 746166187}
+  - {fileID: 1884650799}
+  - {fileID: 1723034454}
+  - {fileID: 819395124}
+  - {fileID: 2060764314}
+  - {fileID: 551998165}
+  - {fileID: 1485947996}
+  - {fileID: 1791234445}
+  - {fileID: 872227513}
+  - {fileID: 106945033}
+  - {fileID: 1109266230}
+  - {fileID: 474522910}
+  - {fileID: 1274007316}
+  - {fileID: 1673848884}
+  - {fileID: 2139365760}
+  - {fileID: 711963620}
+  - {fileID: 222607584}
+  - {fileID: 1267399374}
+  - {fileID: 1081256320}
+  - {fileID: 1304249914}
+  - {fileID: 1125163804}
+  - {fileID: 750053608}
+  - {fileID: 379808809}
+  - {fileID: 374545930}
+  - {fileID: 1288499325}
