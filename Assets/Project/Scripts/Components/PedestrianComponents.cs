@@ -49,6 +49,9 @@ namespace QTS.QWorld.Component
 
         public void SetNewState(int newState)
         {
+            if (newState == state)
+                return;
+
             preState = state;
             state = newState;
         }

@@ -51,7 +51,7 @@ namespace QTS.QWorld.Job.Pedestrian
                     {
                         pedestrianComponent.isCheckedToGetPartner = 1;
                         float randomValue = random.NextFloat(0, 1f);
-                        if (randomValue < 0.1f && pedestrianComponent.curCell != Entity.Null)
+                        if (randomValue < 0.05f && pedestrianComponent.curCell != Entity.Null)
                         {
                             // To get partner
                             var cellMembers = cellMemberLookup[pedestrianComponent.curCell];
@@ -120,19 +120,7 @@ namespace QTS.QWorld.Job.Pedestrian
 
                         if (!pedestrianComponent.isWaiting)
                         {
-                            int randomState = waypointComponentLookup.GetRefRO(pedestrianComponent.curWaypoint).ValueRO.isAvoidWaiting ? random.NextInt(1, 3) : random.NextInt(0, 3);
-
-                            if (randomState == 0)
-                            {
-                                pedestrianComponent.isWaiting = true;
-                                pedestrianComponent.waitingTime = 4f;
-                            }
-
-                            if (pedestrianComponent.state != randomState)
-                            {
-                                pedestrianComponent.SetNewState(randomState);
-                                pedestrianComponent.doTransitionAnim = true;
-                            }
+                            Utils.RandomNewStateForPedestrian(ref pedestrianComponent, random, 0, 2);
                         }
                         pedestrianComponent.reachedDestination = false;
                         pedestrianComponent.isCheckedTrafficLight = false;
@@ -206,19 +194,7 @@ namespace QTS.QWorld.Job.Pedestrian
                 if (pedestrianComponent.waitingTime <= 0)
                 {
                     pedestrianComponent.isWaiting = false;
-                    int randomState = random.NextInt(0, 3);
-
-                    if (randomState == 0)
-                    {
-                        pedestrianComponent.isWaiting = true;
-                        pedestrianComponent.waitingTime = 4f;
-                    }
-
-                    if (pedestrianComponent.state != randomState)
-                    {
-                        pedestrianComponent.SetNewState(randomState);
-                        pedestrianComponent.doTransitionAnim = true;
-                    }
+                    Utils.RandomNewStateForPedestrian(ref pedestrianComponent, random, 0, 2);
                 }
             }
 
@@ -316,8 +292,7 @@ namespace QTS.QWorld.Job.Pedestrian
                     if (pedestrianComponent.curTimeToInteractWithPartner <= 0)
                     {
                         pedestrianComponent.partnerEntity = Entity.Null;
-                        pedestrianComponent.SetNewState(random.NextInt(1, 3));
-                        pedestrianComponent.doTransitionAnim = true;
+                        Utils.RandomNewStateForPedestrian(ref pedestrianComponent, random, 1, 2);
                     }
 
                     pedestrianComponents[i] = pedestrianComponent;
@@ -334,8 +309,7 @@ namespace QTS.QWorld.Job.Pedestrian
                 if (distance <= 1f)
                 {
                     pedestrianComponent.curTimeToInteractWithPartner = 15f;
-                    pedestrianComponent.SetNewState(random.NextInt(3, 5));
-                    pedestrianComponent.doTransitionAnim = true;
+                    Utils.RandomNewStateForPedestrian(ref pedestrianComponent, random, 3, 4);
                 }
                 else
                 {
@@ -357,6 +331,27 @@ namespace QTS.QWorld.Job.Pedestrian
 
                 pedestrianComponents[i] = pedestrianComponent;
             }
+        }
+    }
+
+
+
+    [BurstCompile]
+    static class Utils
+    {
+        [BurstCompile]
+        public static void RandomNewStateForPedestrian(ref PedestrianComponent pedestrianComponent, in Random random, in int min = 0, in int max = 4)
+        {
+            int randomNumber = random.NextInt(min, max + 1);
+
+            if (randomNumber == 0)
+            {
+                pedestrianComponent.isWaiting = true;
+                pedestrianComponent.waitingTime = 4f;
+            }
+
+            pedestrianComponent.SetNewState(randomNumber);
+            pedestrianComponent.doTransitionAnim = true;
         }
     }
 }
