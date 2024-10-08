@@ -16,7 +16,7 @@ namespace QTS.QWorld.Job.Pedestrian
 {
 
     [BurstCompile]
-    public partial struct UpdateDestinationForPedestrianJob : IJobChunk
+    public struct UpdateDestinationForPedestrianJob : IJobChunk
     {
         [ReadOnly] public float deltaTime;
         [ReadOnly] public Unity.Mathematics.Random random;
@@ -47,9 +47,9 @@ namespace QTS.QWorld.Job.Pedestrian
 
                 if (pedestrianComponent.reachedDestination)
                 {
-                    if (pedestrianComponent.isCheckedToGetPartner == 0)
+                    if (!pedestrianComponent.isCheckedToGetPartner)
                     {
-                        pedestrianComponent.isCheckedToGetPartner = 1;
+                        pedestrianComponent.isCheckedToGetPartner = true;
                         float randomValue = random.NextFloat(0, 1f);
                         if (randomValue < 0.05f && pedestrianComponent.curCell != Entity.Null)
                         {
@@ -124,7 +124,7 @@ namespace QTS.QWorld.Job.Pedestrian
                         }
                         pedestrianComponent.reachedDestination = false;
                         pedestrianComponent.isCheckedTrafficLight = false;
-                        pedestrianComponent.isCheckedToGetPartner = 0;
+                        pedestrianComponent.isCheckedToGetPartner = false;
                     }
                 }
 
@@ -265,7 +265,7 @@ namespace QTS.QWorld.Job.Pedestrian
     }
 
     [BurstCompile]
-    public partial struct MoveToPartnerJob : IJobChunk
+    public struct MoveToPartnerJob : IJobChunk
     {
         [ReadOnly] public float deltaTime;
         [ReadOnly] public Random random;

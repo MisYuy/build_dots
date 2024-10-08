@@ -17,7 +17,7 @@ namespace QTS.QWorld.Component
         public int indexBranch;
         public bool isCheckedTrafficLight;
         public float curTimeToWaitTrafficLight;
-        public float3 forwardPos;
+        public float3 forwardPos; // The pos of a point in front of car, use for to check obsticle, etc...
     }
 
     public struct WheelComponent : IComponentData

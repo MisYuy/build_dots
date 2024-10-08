@@ -18,7 +18,7 @@ namespace QTS.QWorld.System
                 .WithAll<CameraComponent>()
                 .ForEach((ref CameraComponent cameraData) =>
                 {
-                    cameraData.ViewProjectionMatrix = mainCamera.projectionMatrix * mainCamera.worldToCameraMatrix;
+                    cameraData.viewProjectionMatrix = mainCamera.projectionMatrix * mainCamera.worldToCameraMatrix;
                 }).WithoutBurst().Run();
 
         }

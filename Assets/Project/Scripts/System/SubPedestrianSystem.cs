@@ -8,7 +8,7 @@ namespace QTS.QWorld.System
     [UpdateBefore(typeof(FrustumCullingSystem))]
     public partial class SubPedestrianSystem : SystemBase
     {
-        private bool _isInitPedestrianRenderInfo = false;
+        private bool _isInitInfor = false;
 
         private ComponentLookup<MaterialMeshInfo> _materialMeshInfoLookup;
 
@@ -22,7 +22,7 @@ namespace QTS.QWorld.System
 
         protected override void OnUpdate()
         {
-            if (!_isInitPedestrianRenderInfo)
+            if (!_isInitInfor)
             {
                 _materialMeshInfoLookup.Update(this);
 
@@ -31,7 +31,7 @@ namespace QTS.QWorld.System
                     materialMeshInfoLookup = _materialMeshInfoLookup,
                 }.ScheduleParallel(Dependency);
 
-                _isInitPedestrianRenderInfo = true;
+                _isInitInfor = true;
 
                 Dependency.Complete();
             }

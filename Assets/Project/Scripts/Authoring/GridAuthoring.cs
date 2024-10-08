@@ -11,17 +11,16 @@ namespace QTS.QWorld.Authoring
         public float cellSize = 1f;
         public Color gridColor = Color.white;
         public Transform checker;
+        public bool showGridGeneration = false;
 
-        [Header("Grid Generation")]
-        [SerializeField] private bool showGridGeneration = false;
-
-        private List<GameObject> cellObjects = new List<GameObject>();
+        private List<GameObject> _cellObjects = new List<GameObject>();
 
         class Baker : Baker<GridAuthoring>
         {
             public override void Bake(GridAuthoring authoring)
             {
                 var entity = GetEntity(authoring, TransformUsageFlags.None);
+
                 AddComponent(entity, new GridComponent()
                 {
                     size = authoring.size,
@@ -64,8 +63,6 @@ namespace QTS.QWorld.Authoring
 
         public void GenerateGrid()
         {
-            ClearGrid();
-
             int numCellsX = Mathf.FloorToInt(size.x / cellSize);
             int numCellsY = Mathf.FloorToInt(size.y / cellSize);
 
@@ -80,7 +77,7 @@ namespace QTS.QWorld.Authoring
                     CellAuthoring cellAuthoring = cellObject.AddComponent<CellAuthoring>();
                     FillCellData(cellAuthoring, x, y);
 
-                    cellObjects.Add(cellObject);
+                    _cellObjects.Add(cellObject);
                 }
             }
 
@@ -88,29 +85,16 @@ namespace QTS.QWorld.Authoring
             size = new Vector2(numCellsX * cellSize, numCellsY * cellSize);
         }
 
-
-        private void ClearGrid()
-        {
-            foreach (GameObject cellObject in cellObjects)
-            {
-                DestroyImmediate(cellObject);
-            }
-            cellObjects.Clear();
-        }
         public Vector2Int GetCellCoordinates(Vector3 position)
         {
-            // Chuyển đổi vị trí _world space thành local space
             Vector3 localPosition = transform.InverseTransformPoint(position);
 
-            // Tính toán tọa độ ô, xử lý cả trường hợp âm và dương
             int x = Mathf.FloorToInt(localPosition.x / cellSize);
             int y = Mathf.FloorToInt(localPosition.z / cellSize);
 
-            // Tính số lượng ô trong grid
             int numCellsX = Mathf.FloorToInt(size.x / cellSize);
             int numCellsY = Mathf.FloorToInt(size.y / cellSize);
 
-            // Đảm bảo tọa độ nằm trong phạm vi của grid
             x = Mathf.Clamp(x, 0, numCellsX - 1);
             y = Mathf.Clamp(y, 0, numCellsY - 1);
 

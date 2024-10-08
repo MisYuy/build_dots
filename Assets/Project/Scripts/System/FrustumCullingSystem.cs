@@ -59,7 +59,7 @@ namespace QTS.QWorld.System
 
             var detectionJob = new DetectionJob
             {
-                CameraViewProjection = cameraData.ViewProjectionMatrix,
+                CameraViewProjection = cameraData.viewProjectionMatrix,
                 renderBoundLookup = _renderBoundLookup
             };
             state.Dependency = detectionJob.ScheduleParallel(_query1, state.Dependency);

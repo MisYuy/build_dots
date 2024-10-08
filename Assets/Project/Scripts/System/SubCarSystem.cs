@@ -7,7 +7,7 @@ namespace QTS.QWorld.System
     [UpdateBefore(typeof(FrustumCullingSystem))]
     public partial class SubCarSystem : SystemBase
     {
-        private bool _isInitPedestrianRenderInfo = false;
+        private bool _isInitInfor = false;
 
         protected override void OnCreate()
         {
@@ -18,15 +18,14 @@ namespace QTS.QWorld.System
 
         protected override void OnUpdate()
         {
-            if (!_isInitPedestrianRenderInfo)
+            if (!_isInitInfor)
             {
-                //UnityEngine.Debug.Log("Init");
                 Entities
                .ForEach((ref FrustumCullingTag cullingTag, in MaterialMeshInfo info) =>
                {
                    cullingTag.rootMeshId = info.Mesh;
                }).WithoutBurst().Run();
-                _isInitPedestrianRenderInfo = true;
+                _isInitInfor = true;
             }
         }
     }

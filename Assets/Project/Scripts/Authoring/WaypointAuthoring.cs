@@ -21,10 +21,12 @@ namespace QTS.QWorld.Authoring
         public TrafficLightAuthoring trafficLightCheck;
         public bool isAvoidWaiting;
 
+        // This method use for  quick create branch
         private void OnValidate()
         {
             if (branches == null)
                 return;
+
             foreach (var branch in branches)
             {
                 if (!branch.branches.Contains(this))

@@ -30,8 +30,8 @@ namespace QTS.QWorld.Authoring
                     rotationSpeed = authoring.rotationSpeed,
                     minSpeed = authoring.minSpeed,
                     maxSpeed = authoring.maxSpeed,
-                    preWaypoint = GetEntity(authoring.firstWaypoint, TransformUsageFlags.None),
-                    curWaypoint = GetEntity(authoring.firstWaypoint, TransformUsageFlags.None)
+                    preWaypoint = GetEntity(authoring.firstWaypoint, TransformUsageFlags.None), // Start with null
+                    curWaypoint = GetEntity(authoring.firstWaypoint, TransformUsageFlags.None)  // Start with null
                 });
 
                 AddComponent(entity, new FrustumCullingTag

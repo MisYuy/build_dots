@@ -36,8 +36,7 @@ namespace QTS.QWorld.Job
             }
         }
 
-        [BurstCompile]
-        public static void TransitionState(ref TrafficLightComponent trafficLightComponent)
+        public void TransitionState(ref TrafficLightComponent trafficLightComponent)
         {
             trafficLightComponent.curState = (trafficLightComponent.curState + 1) % 3;
 

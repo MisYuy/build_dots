@@ -11,7 +11,11 @@ namespace QTS.QWorld.Authoring
             public override void Bake(LampAuthoring authoring)
             {
                 var entity = GetEntity(authoring, TransformUsageFlags.None);
-                AddComponent(entity, new LampComponent() { value = new Unity.Mathematics.float4(0, 0, 0, 1) });
+
+                AddComponent(entity, new LampComponent()
+                {
+                    value = new Unity.Mathematics.float4(0, 0, 0, 1)
+                });
             }
         }
     }

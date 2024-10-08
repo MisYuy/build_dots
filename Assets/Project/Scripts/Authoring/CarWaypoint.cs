@@ -62,7 +62,6 @@ namespace QTS.QWorld.Authoring
 #endif
             }
 
-
             foreach (var branch in branches)
             {
                 if (branch.carWaypoint != null)
@@ -106,7 +105,7 @@ namespace QTS.QWorld.Authoring
     public class Branch
     {
         public CarWaypoint carWaypoint;
-        public bool isTurning;
+        public bool isTurning; // Use for mark this branch is a turninng road
         public int index = -1;
     }
 }

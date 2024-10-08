@@ -19,6 +19,7 @@ namespace QTS.QWorld.Authoring
                 {
                     coordinate = new int2((int)authoring.coordinate.x, (int)authoring.coordinate.y),
                 });
+
                 AddBuffer<CellMember>(entity);
             }
         }

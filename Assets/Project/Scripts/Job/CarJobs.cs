@@ -180,7 +180,7 @@ namespace QTS.QWorld.Job.Car
                 if (distance > math.EPSILON)
                 {
                     float3 movement = math.normalize(movementDirection) * carComponent.speed * deltaTime;
-                    newPosition = math.length(movement) > distance ? carComponent.targetPos : localTransform.Position + movement;
+                    newPosition = math.select(localTransform.Position + movement, carComponent.targetPos, math.length(movement) > distance);
                 }
                 else
                 {
@@ -194,7 +194,7 @@ namespace QTS.QWorld.Job.Car
             // Calculate rotation
             if (math.lengthsq(movementDirection) > math.EPSILON)
             {
-                quaternion targetRotation = quaternion.LookRotation(movementDirection, new float3(0, 1, 0));
+                quaternion targetRotation = quaternion.LookRotation(movementDirection, math.up());
 
                 // Smooth rotation using slerp
                 float rotationSpeed = 5f; // Adjust this value to change how quickly the car rotates

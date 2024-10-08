@@ -9,24 +9,18 @@ namespace QTS.QWorld.Authoring
     {
         public float speed = 7f;
         public CarWaypoint spawnPoint;
-        public CarWaypoint targetWaypoint;
+        public CarWaypoint targetCarWaypoint;
 
 #if UNITY_EDITOR
+        // This method is used to automatically set the car's position to the spawn point and automatically set the targetCarWaypoint to the next carWaypoint.
         private void OnValidate()
         {
-            // Check if spawnPoint is not null
             if (spawnPoint != null && spawnPoint.branches != null && spawnPoint.branches.Count > 0)
             {
-                // Randomly select a target waypoint from the branches
-                targetWaypoint = spawnPoint.branches[UnityEngine.Random.Range(0, spawnPoint.branches.Count)].carWaypoint;
-
-                // Set the position to the spawn point's position
+                targetCarWaypoint = spawnPoint.branches[UnityEngine.Random.Range(0, spawnPoint.branches.Count)].carWaypoint;
                 transform.position = spawnPoint.transform.position;
 
-                // Ensure the hierarchy window updates to show the selection
                 EditorApplication.DirtyHierarchyWindowSorting();
-
-                // This will make sure the inspector updates for the new selection
                 EditorUtility.SetDirty(this);
             }
         }
@@ -41,8 +35,8 @@ namespace QTS.QWorld.Authoring
                 AddComponent(entity, new CarComponent
                 {
                     speed = authoring.speed,
-                    targetPos = authoring.targetWaypoint.transform.position,
-                    targetWaypointEntity = GetEntity(authoring.targetWaypoint, TransformUsageFlags.None),
+                    targetPos = authoring.targetCarWaypoint.transform.position,
+                    targetWaypointEntity = GetEntity(authoring.targetCarWaypoint, TransformUsageFlags.None),
                     indexBranch = -1
                 });
 

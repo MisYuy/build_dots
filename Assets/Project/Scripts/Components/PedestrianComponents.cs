@@ -26,7 +26,8 @@ namespace QTS.QWorld.Component
         public float waitingTime;
 
         public int preState;
-        public int state;
+        public int state; // 0: wait, idle - 1; walk - 2: run - 3,4: talk, laugh, etc...
+
         [MarshalAs(UnmanagedType.U1)]
         public bool doTransitionAnim;
 
@@ -36,7 +37,8 @@ namespace QTS.QWorld.Component
 
         public Entity curCell;
 
-        public int isCheckedToGetPartner; // 0: False, 1: True
+        [MarshalAs(UnmanagedType.U1)]
+        public bool isCheckedToGetPartner; // 0: False, 1: True
         public Entity partnerEntity;
         public float curTimeToInteractWithPartner;
 
